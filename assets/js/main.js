@@ -1,1 +1,9 @@
-const year=document.querySelector("#year");const lastUpdated=document.querySelector("#last-updated");const navLinks=[...document.querySelectorAll(".nav-links a")];const sections=navLinks.map(link=>document.querySelector(link.getAttribute("href"))).filter(Boolean);if(year){year.textContent=new Date().getFullYear()}if(lastUpdated){const date=new Date(document.lastModified);lastUpdated.textContent=date.toLocaleDateString("en",{year:"numeric",month:"short",day:"numeric"})}const updateActiveLink=()=>{let current=sections[0]?.id;for(const section of sections){const rect=section.getBoundingClientRect();if(rect.top<=120)current=section.id}navLinks.forEach(link=>{link.classList.toggle("active",link.getAttribute("href")===`#${current}`)})};window.addEventListener("scroll",updateActiveLink,{passive:true});updateActiveLink();
+const year=document.querySelector("#year");
+const lastUpdated=document.querySelector("#last-updated");
+const navLinks=[...document.querySelectorAll(".nav-links a")];
+const sections=navLinks.map(link=>document.querySelector(link.getAttribute("href"))).filter(Boolean);
+if(year){year.textContent=new Date().getFullYear();}
+if(lastUpdated){const date=new Date(document.lastModified);lastUpdated.textContent=date.toLocaleDateString("en",{year:"numeric",month:"short",day:"numeric"});}
+const updateActiveLink=()=>{let current=sections[0]?.id;for(const section of sections){const rect=section.getBoundingClientRect();if(rect.top<=120)current=section.id;}navLinks.forEach(link=>{link.classList.toggle("active",link.getAttribute("href")===`#${current}`);});};
+window.addEventListener("scroll",updateActiveLink,{passive:true});
+updateActiveLink();

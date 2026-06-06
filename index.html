@@ -9,6 +9,7 @@
 </head>
 <body>
   <div class="page-grid" aria-hidden="true"></div>
+
   <header class="topbar">
     <nav class="nav-wrap">
       <a class="brand" href="#about">Weiyu Zhou</a>
@@ -17,6 +18,7 @@
         <a href="#news">News</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
+        <a href="#competitions">Competitions</a>
         <a href="#education">Education</a>
         <a href="#misc">Misc</a>
       </div>
@@ -27,18 +29,27 @@
     <aside class="profile-card">
       <div class="profile-inner">
         <div class="avatar-ring">
-          <img src="assets/img/profile.jpg" alt="Weiyu Zhou portrait" class="avatar" />
+          <img src="assets/img/profile-placeholder.svg" alt="Weiyu Zhou portrait" class="avatar" />
         </div>
+
         <h1>Weiyu Zhou</h1>
         <p class="name-cn">周威宇</p>
         <p class="role">M.S. Student</p>
-        <p class="intro">School of Computer Science<br />Northwestern Polytechnical University</p>
+
+        <p class="intro">
+          School of Computer Science<br />
+          Northwestern Polytechnical University
+        </p>
+
         <ul class="profile-list">
           <li><span>📍</span> Xi'an, China</li>
           <li><span>🎓</span> Northwestern Polytechnical University</li>
-          <li><span>🧭</span> Advisor: <a href="https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ" target="_blank" rel="noopener">Prof. Qingsen Yan</a></li>
+          <li><span>🧭</span> Advisor:
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ" target="_blank" rel="noopener">Prof. Qingsen Yan</a>
+          </li>
           <li><span>🔬</span> HDR · Restoration · Fusion · GenAI</li>
         </ul>
+
         <div class="social-row">
           <a href="https://scholar.google.com/citations?hl=zh-CN&user=UAAtWOIAAAAJ" target="_blank" rel="noopener">Scholar</a>
           <a href="https://github.com/zzwy" target="_blank" rel="noopener">GitHub</a>
@@ -50,23 +61,36 @@
     <section class="content">
       <section id="about" class="block first-block">
         <h2><span>👋</span> About Me</h2>
-        <p>Hi! I am <strong>Weiyu Zhou</strong> (<span lang="zh">周玮煜</span> in Chinese), a Master's student in the <strong>School of Computer Science</strong> at <strong>Northwestern Polytechnical University</strong>, advised by <a href="https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ" target="_blank" rel="noopener">Prof. Qingsen Yan</a>. I joined the Master's program in 2025 and expect to continue toward a Ph.D. through the direct M.S.-to-Ph.D. track in Fall 2026.</p>
-        <p>Before that, I studied <strong>Artificial Intelligence</strong> at <strong>Anhui University</strong>. My research interests include <strong>HDR imaging</strong>, <strong>image restoration</strong>, <strong>multimodal fusion</strong>, and <strong>generative artificial intelligence</strong>.</p>
+        <p>
+          Hi! I am <strong>Weiyu Zhou</strong> (<span lang="zh">周威宇</span> in Chinese), a Master's student in the
+          <strong>School of Computer Science</strong> at
+          <strong>Northwestern Polytechnical University</strong>, advised by
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ" target="_blank" rel="noopener">Prof. Qingsen Yan</a>.
+          I joined the Master's program in 2025 and expect to continue toward a Ph.D. through the direct M.S.-to-Ph.D.
+          track in Fall 2026.
+        </p>
+        <p>
+          Before that, I studied <strong>Artificial Intelligence</strong> at <strong>Anhui University</strong>.
+          My research interests include <strong>HDR imaging</strong>, <strong>image restoration</strong>,
+          <strong>multimodal fusion</strong>, and <strong>generative artificial intelligence</strong>.
+        </p>
       </section>
 
       <section id="news" class="block">
         <h2><span>📢</span> News</h2>
         <div class="news-list">
-          <article class="news-item"><time>2026 / Fall</time><p>Expected to continue toward a Ph.D. through the direct M.S.-to-Ph.D. track.</p></article>
+          <article class="news-item"><time>2026</time><p>Our paper <strong>PINet</strong> has been published in <strong>Complex &amp; Intelligent Systems</strong>.</p></article>
+          <article class="news-item"><time>2026</time><p>Our paper <strong>AGNet</strong> has been accepted by <strong>Neurocomputing</strong>.</p></article>
+          <article class="news-item"><time>2026</time><p>Won <strong>2nd place</strong> in the NTIRE 2026 Efficient Burst HDR and Restoration Challenge.</p></article>
+          <article class="news-item"><time>2025</time><p>Won <strong>2nd place</strong> in the NTIRE 2025 Efficient Burst HDR and Restoration Challenge.</p></article>
           <article class="news-item"><time>2025</time><p>Started the Master's program at Northwestern Polytechnical University.</p></article>
-          <article class="news-item"><time>2025</time><p>Participated in research on efficient burst HDR restoration.</p></article>
         </div>
       </section>
 
       <section id="research" class="block">
         <h2><span>🔬</span> Research Interests</h2>
         <div class="topic-grid">
-          <article class="topic-card"><h3>HDR Imaging</h3><p>Multi-exposure HDR reconstruction, RAW/burst HDR restoration, tone and gain-map modeling.</p></article>
+          <article class="topic-card"><h3>HDR Imaging</h3><p>Multi-exposure HDR reconstruction, RAW/burst HDR restoration, tone mapping, and gain-map modeling.</p></article>
           <article class="topic-card"><h3>Image Restoration</h3><p>Robust restoration under blur, noise, saturation, low-light scenes, and mixed degradations.</p></article>
           <article class="topic-card"><h3>Multimodal Fusion</h3><p>Cross-modal visual fusion using complementary information from multiple frames or modalities.</p></article>
           <article class="topic-card"><h3>Generative AI</h3><p>Diffusion and generative priors for high-fidelity image enhancement and reconstruction.</p></article>
@@ -75,35 +99,102 @@
 
       <section id="publications" class="block">
         <h2><span>📝</span> Publications</h2>
-        <p class="pub-note">Full list on <a href="https://scholar.google.com/citations?hl=zh-CN&user=UAAtWOIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>. Please verify final author order, venue status, and links before public deployment.</p>
+        <p class="pub-note">
+          Full list on
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=UAAtWOIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
+          <span class="eq-note">*</span> Equal contribution.
+        </p>
 
-        <article class="pub-card">
-          <div class="pub-badge"><span>Preprint</span></div>
-          <div class="pub-main">
-            <h3>GMODiff: One-Step Gain Map Refinement with Diffusion Priors for HDR Reconstruction</h3>
-            <p class="authors">Tao Hu, <strong>Weiyu Zhou</strong>, Yanjie Tu, Peng Wu, Wei Dong, Qingsen Yan, Yanning Zhang</p>
-            <p class="venue">Preprint</p>
-            <p>A gain-map-driven one-step diffusion framework for HDR reconstruction, aiming to use generative priors while preserving faithful visual structures.</p>
-            <div class="pub-links"><a href="https://arxiv.org/html/2512.16357v1" target="_blank" rel="noopener">Paper</a></div>
-          </div>
-        </article>
+        <div class="pub-group">
+          <h3 class="pub-group-title">Accepted Papers</h3>
 
-        <article class="pub-card">
-          <div class="pub-badge alt"><span>NTIRE 2025</span></div>
-          <div class="pub-main">
-            <h3>Flow-Guided Deformable Alignment with Channel-wise Self-Attention Reconstruct for Efficient Burst HDR Restoration</h3>
-            <p class="authors"><strong>Weiyu Zhou</strong>, Tao Hu, Yixu Feng, Duwei Dai, Yu Cao, Peng Wu, Wei Dong, Yanning Zhang, Qingsen Yan</p>
-            <p class="venue">NTIRE 2025 Efficient Burst HDR and Restoration Challenge</p>
-            <p>An efficient burst HDR restoration approach using flow-guided deformable alignment and channel-wise self-attention reconstruction.</p>
-            <div class="pub-links"><a href="https://arxiv.org/html/2505.12089v1" target="_blank" rel="noopener">Paper</a></div>
-          </div>
-        </article>
+          <article class="pub-card">
+            <a class="pub-image" href="#" aria-label="AGNet model image">
+              <img src="assets/img/AGNet.png" alt="AGNet model overview">
+            </a>
+            <div class="pub-main">
+              <div class="venue-tag journal">Neurocomputing 2026</div>
+              <h3>AGNet: Attention Guided Network for Single HDR Reconstruction</h3>
+              <p class="authors">Zhou Gong<span class="eq-note">*</span>, <strong>Weiyu Zhou</strong><span class="eq-note">*</span>, Xiaowen Ma, Qingsen Yan</p>
+              <p class="venue">Neurocomputing, 2026. Accepted. <span class="eq-note">*</span> Equal contribution.</p>
+              <div class="pub-links"><a href="#">Paper</a><a href="#">Code</a></div>
+            </div>
+          </article>
+
+          <article class="pub-card">
+            <a class="pub-image" href="https://link.springer.com/article/10.1007/s40747-026-02261-z" target="_blank" rel="noopener" aria-label="PINet model image">
+              <img src="assets/img/PINet.png" alt="PINet model overview">
+            </a>
+            <div class="pub-main">
+              <div class="venue-tag journal">Complex &amp; Intelligent Systems 2026</div>
+              <h3>Ghost-free High Dynamic Range Imaging under Degradation with PINet</h3>
+              <p class="authors">Zhou Gong, <strong>Weiyu Zhou</strong></p>
+              <p class="venue">Complex &amp; Intelligent Systems, 12(4), Article 130, 2026. DOI: 10.1007/s40747-026-02261-z</p>
+              <div class="pub-links">
+                <a href="https://link.springer.com/article/10.1007/s40747-026-02261-z" target="_blank" rel="noopener">Paper</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pub-card">
+            <a class="pub-image" href="#" aria-label="DDPF-PR model image">
+              <img src="assets/img/DDPF-PR.png" alt="DDPF-PR model overview for High Dynamic Range Imaging via Spatial-Frequency Interaction">
+            </a>
+            <div class="pub-main">
+              <div class="venue-tag">TCSVT 2026</div>
+              <h3>High Dynamic Range Imaging via Spatial-Frequency Interaction</h3>
+              <p class="authors"><strong>Weiyu Zhou</strong>, Yongqing Yang, Tao Hu, Pu Hui, Jian Jin, Yu Cao, Qingsen Yan, Yanning Zhang</p>
+              <p class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026</p>
+              <div class="pub-links"><a href="#">Paper</a><a href="#">Code</a></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="pub-group">
+          <h3 class="pub-group-title">Preprints</h3>
+
+          <article class="pub-card">
+            <a class="pub-image" href="https://arxiv.org/abs/2512.16357" target="_blank" rel="noopener" aria-label="GMODiff model image">
+              <img src="assets/img/GMODiff.png" alt="GMODiff model overview">
+            </a>
+            <div class="pub-main">
+              <div class="venue-tag preprint">arXiv 2025</div>
+              <h3>GMODiff: One-Step Gain Map Refinement with Diffusion Priors for HDR Reconstruction</h3>
+              <p class="authors">Tao Hu, <strong>Weiyu Zhou</strong>, Yanjie Tu, Peng Wu, Wei Dong, Qingsen Yan, Yanning Zhang</p>
+              <p class="venue">arXiv preprint, 2025</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2512.16357" target="_blank" rel="noopener">Paper</a>
+                <a href="#">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="competitions" class="block">
+        <h2><span>🏆</span> Competitions</h2>
+        <div class="award-grid">
+          <article class="award-card">
+            <div class="award-rank">2nd</div>
+            <div>
+              <h3>NTIRE 2026 Efficient Burst HDR and Restoration Challenge</h3>
+              <p>Second place in the Efficient Burst HDR and Restoration track.</p>
+            </div>
+          </article>
+          <article class="award-card">
+            <div class="award-rank">2nd</div>
+            <div>
+              <h3>NTIRE 2025 Efficient Burst HDR and Restoration Challenge</h3>
+              <p>Second place in the Efficient Burst HDR and Restoration track.</p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section id="education" class="block">
         <h2><span>🎓</span> Education</h2>
         <div class="edu-timeline">
-          <article class="edu-item"><time>2025 - Present</time><div><h3>Northwestern Polytechnical University</h3><p>Master's Student, School of Computer Science</p><p>Expected direct M.S.-to-Ph.D. track, Fall 2026</p><p>Advisor: <a href="https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ" target="_blank" rel="noopener">Prof. Qingsen Yan</a></p></div></article>
+          <article class="edu-item"><time>2025 - Present</time><div><h3>Northwestern Polytechnical University</h3><p>M.S. Student, School of Computer Science</p><p>Expected direct M.S.-to-Ph.D. track, Fall 2026</p><p>Advisor: <a href="https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ" target="_blank" rel="noopener">Prof. Qingsen Yan</a></p></div></article>
           <article class="edu-item"><time>Undergraduate</time><div><h3>Anhui University</h3><p>Major in Artificial Intelligence</p></div></article>
         </div>
       </section>
@@ -114,6 +205,7 @@
       </section>
     </section>
   </main>
+
   <footer class="footer"><p>© <span id="year"></span> Weiyu Zhou. Last updated: <span id="last-updated"></span>.</p></footer>
   <script src="assets/js/main.js"></script>
 </body>

@@ -1,10 +1,21 @@
-# Weiyu Zhou Homepage
+# Weiyu Zhou Homepage v3
 
-A GitHub Pages-ready academic homepage with a left profile card and timeline-style content.
+This version uses real publication-image slots instead of text badges.
 
-## Deploy
+## Replace publication images
 
-Upload these files to the root of your `zzwy.github.io` repository:
+Replace these files with your actual model/framework images. Keep the same filenames if you do not want to edit HTML:
+
+- `assets/img/pub-sfi.png`
+- `assets/img/pub-pinet.png`
+- `assets/img/pub-gmodiff.png`
+- `assets/img/pub-agnet.png`
+
+Recommended size: around `720 x 420` or any 16:9 / 5:3 crop.
+
+## To deploy
+
+Upload everything in this folder to the root of `zzwy.github.io`, replacing old files:
 
 - `index.html`
 - `.nojekyll`
@@ -12,10 +23,20 @@ Upload these files to the root of your `zzwy.github.io` repository:
 - `files/`
 - `README.md`
 
-Then commit to `main`. GitHub Pages should publish from `main` and `/(root)`.
+Then commit changes and wait for GitHub Actions Pages deployment.
 
-## Customize
 
-- Replace `assets/img/profile-placeholder.svg` with your real portrait.
-- Replace `your_email@example.com`.
-- Verify publication author order, venue status, and links.
+## v4 update
+
+- Updated PINet: authors `Zhou Gong, Weiyu Zhou`; venue `Complex & Intelligent Systems, 12(4), Article 130, 2026`; DOI `10.1007/s40747-026-02261-z`.
+
+
+## v5 update
+
+- Publications are grouped into `Accepted Papers` and `Preprints`.
+- Accepted papers are ordered with the more recently accepted item above the earlier accepted item.
+- Publication image filenames now use the requested model names:
+  - `assets/img/DDPF-PR.png`
+  - `assets/img/PINet.png`
+  - `assets/img/AGNet.png`
+  - `assets/img/GMODiff.png`
